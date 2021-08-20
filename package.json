@@ -44,7 +44,7 @@
   "jest": {
     "verbose": true,
     "moduleNameMapper": {
-        "\\.(scss|less)$": "<rootDir>/config/CSSStub.js"
+      "\\.(scss|less)$": "<rootDir>/config/CSSStub.js"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"

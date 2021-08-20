@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mortgage calculator Component should render properly 1`] = `
+<div
+  className="MuiFormControl-root mortgageItem"
+  style={
+    Object {
+      "margin": "8px",
+      "width": "350px",
+    }
+  }
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiInputLabel-outlined MuiFormLabel-filled"
+    data-shrink={true}
+    htmlFor="housePrice"
+  >
+    Home Price
+  </label>
+  <div
+    className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+    onClick={[Function]}
+    size="small"
+  >
+    <div
+      className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-marginDense"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+      >
+        $
+      </p>
+    </div>
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+      disabled={false}
+      id="housePrice"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      type="text"
+      value={500}
+    />
+    <fieldset
+      aria-hidden={true}
+      className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+      style={
+        Object {
+          "paddingLeft": 8,
+        }
+      }
+    >
+      <legend
+        className="PrivateNotchedOutline-legend-2"
+        style={
+          Object {
+            "width": 83,
+          }
+        }
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "&#8203;",
+            }
+          }
+        />
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+  }
+
+  h3.mortgageCalc {
+    color:#000099;
+    text-align:center;
+    font-size:x-large;
+    font-weight:900;
+  }

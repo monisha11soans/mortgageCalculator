@@ -1,0 +1,51 @@
+.mortgageCard {
+    display: flex;
+    margin: 24px;
+}
+.mortageWidth {
+    width: 50%;
+}
+.mortgageItem {
+    width: 350px;
+    margin-bottom: 16px;
+}
+.error {
+    color:#db2269;
+    font-size: 0.625em;
+  }
+.summaryHeight {
+    line-height: 24px;
+}
+.paddingSummary {
+      padding-left: 16px;
+}
+.fontSummary {
+    font-size: 80%;
+    font-weight: 400;
+}
+.monthlyPayment {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #000099;
+}
+p:hover {
+    background-color: yellow;
+}
+.monthlyHeader {
+    border-collapse: collapse;
+    font-size: 80%;
+    font-weight: 400;
+}
+th {
+    color: #000099;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+#mortgageTable.table {
+    border-collapse: collapse;
+    width: 70%;
+}
